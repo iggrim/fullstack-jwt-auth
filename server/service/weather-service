@@ -1,0 +1,8 @@
+
+class WeatherService{
+    async getWeather(){
+        return `Всегда отличная погода!`;
+    }
+}
+
+module.exports = new WeatherService();
